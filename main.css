@@ -11,11 +11,11 @@
 }
 
 body {
-  background-color: aqua;
+  background-color: rgb(236, 226, 213) ;
 }
 
 header {
-  background-color: aqua;
+  background-color: rgb(236, 226, 213) ;
   padding: 16px 0;
 }
 
@@ -27,15 +27,15 @@ header nav li {
   display: inline;
   margin-right: 120px;
   margin-left: 25px;
-  color: #292e62;
-  font-size: 14px;
+  color: rgb(168, 143, 110);
+  font-size: 12px;
   font-weight: bolder;
 }
 
 header nav li a {
   display: inline;
-  margin-left: 16px;
-  color: #292e62;
+  margin-left: 14px;
+  color: rgb(168, 143, 110);
   text-decoration: none;
 }
 
@@ -53,17 +53,17 @@ header .container {
 
 hr {
   height: 10px;
-  background-color: #292e62;
+  background-color: rgb(168, 143, 110);
   margin: 20px;
 }
 
-h1, h2, p, form {
+h1, h2, p, form, li, address, footer {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  color: #292e62;
+  color: rgb(168, 143, 110);
 }
 
 h1, h2 {
@@ -116,12 +116,12 @@ section .container {
 }
 
 section form {
-  border: 1px solid #292e62;
+  border: 1px solid rgb(168, 143, 110);
   border-radius: 8px;
   box-sizing: border-box;
   font-size: 16px;
-  background-color: #505bd5;
-  color: aqua;
+  background-color: rgb(168, 143, 110);
+  color: rgb(236, 226, 213);
   padding: 30px;
   width: 100%;
   max-width: 400px;
@@ -133,8 +133,8 @@ section form {
 section form button {
   width: 100%;
   padding: 15px;
-  background-color: #292e62;
-  color: aqua;
+  background-color: rgb(236, 226, 213);
+  color: rgb(168, 143, 110);
   border: none;
   border-radius: 4px;
   font-size: 16px;
@@ -143,8 +143,9 @@ section form button {
   transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 }
 section form button:hover {
-  background-color: #232fb9;
+  background-color: rgb(168, 143, 110);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: rgb(236, 226, 213);
 }
 
 textarea {
@@ -154,4 +155,3 @@ textarea {
 footer {
   text-align: center;
 }
-
