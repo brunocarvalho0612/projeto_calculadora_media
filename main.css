@@ -6,9 +6,11 @@
 
 .logo {
   height: 100px;
-  border-radius: 8%;
-  
+  border-radius: 40%;
+  margin-right: 510px;
 }
+
+
 
 body {
   background-color: rgb(236, 226, 213) ;
@@ -16,27 +18,34 @@ body {
 
 header {
   background-color: rgb(236, 226, 213) ;
-  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav {
   display: flex;  
 }
 
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 header nav li {
-  display: inline;
-  margin-right: 120px;
-  margin-left: 25px;
   color: rgb(168, 143, 110);
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bolder;
 }
 
 header nav li a {
-  display: inline;
-  margin-left: 14px;
   color: rgb(168, 143, 110);
   text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 .container {
@@ -48,7 +57,7 @@ header nav li a {
 header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  
 }
 
 hr {
@@ -57,7 +66,7 @@ hr {
   margin: 20px;
 }
 
-h1, h2, p, form, li, address, footer {
+h1, h2, p, form, li, address, footer, textarea {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -74,6 +83,10 @@ h1, h2 {
 
 p {
   font-size: 18px;
+}
+
+main {
+  padding-top: 80px;
 }
 section h1 {
   text-align: left;
@@ -105,6 +118,7 @@ section .container {
 #contact img {
   height: 40px;
   margin: 20px 40px;
+  display: flex;
 }
 
 #contact a {
@@ -119,7 +133,7 @@ section form {
   border: 1px solid rgb(168, 143, 110);
   border-radius: 8px;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
   background-color: rgb(168, 143, 110);
   color: rgb(236, 226, 213);
   padding: 30px;
@@ -150,6 +164,11 @@ section form button:hover {
 
 textarea {
   resize: none;
+  height: 100px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  padding: 10px; 
 }
 
 footer {
