@@ -1,0 +1,43 @@
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container form {
+  margin-top: 100px;
+}
+
+label {
+  font-size: 25px;
+  margin-bottom: 18px;
+}
+
+input {
+  padding: 20px;
+  margin-top: 18px;
+}
+
+button {
+  padding: 18px;
+  margin-top: 18px;
+  width: 100px;
+  background-color: rgb(18, 182, 24);
+}
+
+button:hover {
+  background-color: rgb(5, 254, 14);
+  transition: 0.2s;
+  cursor: pointer;
+}
